@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Page with Chart</title>
+    <style>
+        #result {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #chartContainer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Operations</h1>
+
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1">
+    <br>
+
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2">
+    <br>
+
+    <button id="addBtn">Add</button>
+    <button id="subtractBtn">Subtract</button>
+    <button id="multiplyBtn">Multiply</button>
+    <button id="divideBtn">Divide</button>
+
+    <div id="result"></div>
+
+    <div id="chartContainer">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
